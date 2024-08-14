@@ -1,0 +1,19 @@
+{
+  "name": "zenstack-test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx src/main.ts",
+    "db": "npx zenstack generate && npx prisma db push"
+  },
+  "devDependencies": {
+    "prisma": "^5.18.0",
+    "typescript": "^5.5.3",
+    "zenstack": "2.4.1"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.18.0",
+    "@zenstackhq/runtime": "2.4.1"
+  }
+}
